@@ -29,7 +29,7 @@ export function Status({ id }: { id: number }) {
         flexDirection: "column",
         height: "100%",
         overflowX: "hidden", // Enables horizontal scrolling
-        flexShrink: 0,         // Prevent shrinking of the card below 300px
+        flexShrink: 0, // Prevent shrinking of the card below 300px
       }}
     >
       <Typography variant="h6">{name}</Typography>
