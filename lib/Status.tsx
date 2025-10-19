@@ -22,7 +22,7 @@ export function Status({ id }: { id: number }) {
   return (
     <Card
       sx={{
-        width: "300px",        // Fixed width for the Statu component
+        width: "300px",
         margin: "10px",
         padding: "10px",
         display: "flex",
